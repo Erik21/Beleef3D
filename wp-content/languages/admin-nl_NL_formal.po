@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-01-22 08:11:49+0000\n"
+"PO-Revision-Date: 2018-02-12 10:05:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -248,7 +248,7 @@ msgstr "Syntaxmarkering en foutcontrole? Ja, graag!"
 
 #: wp-admin/about.php:120
 msgid "Ever encounter a scenario where two designers walk into a project and designer A overrides designer B&#8217;s beautiful changes? WordPress 4.9&#8217;s design lock feature (similar to post locking) secures your draft design so that no one can make changes to it or erase all your hard work."
-msgstr "Heeft u het ooit meegemaakt dat twee ontwikkelaars bij het project kwamen en elkaar verweten hun mooie aanpassingen te hebben overschreven? WordPress 4.9. ontwerpvergrendeling (vergelijkbaar met berichtvergrendeling) beschermd het concept ontwerp zodat niemand anders wijzigingen kan maken en alle het hard werk overschrijft."
+msgstr "Heeft u het ooit meegemaakt dat twee ontwikkelaars bij het project kwamen en elkaar verweten hun mooie aanpassingen te hebben overschreven? WordPress 4.9 ontwerpvergrendeling (vergelijkbaar met berichtvergrendeling) beschermt het concept ontwerp, zodat niemand anders wijzigingen kan maken en niemand uw hard werk overschrijft."
 
 #: wp-admin/about.php:113
 msgid "Need to get some feedback on proposed site design changes? WordPress 4.9 gives you a preview link you can send to your team and customers so that you can collect and integrate feedback before you schedule the changes to go live. Can we say collaboration&#43;&#43;?"
@@ -723,14 +723,14 @@ msgstr "Selecteer één of meerdere thema functies om op te filteren"
 msgid "Choose either a city in the same timezone as you or a UTC timezone offset."
 msgstr "Kies of een stad in uw tijdzone of een UTC tijdzone offset."
 
+#: wp-admin/includes/meta-boxes.php:111
+msgid "Set status"
+msgstr "Stel status in"
+
 #. translators: %s: post title
 #: wp-admin/includes/class-wp-posts-list-table.php:839
 msgid "&#8220;%s&#8221; is locked"
 msgstr "&#8220;%s&#8221; is geblokkeerd"
-
-#: wp-admin/includes/meta-boxes.php:111
-msgid "Set status"
-msgstr "Stel status in"
 
 #: wp-admin/includes/plugin-install.php:292
 msgid "Search plugins..."
@@ -769,6 +769,11 @@ msgstr "https://nl.wordpress.org/plugins/"
 msgid "Customize New Changes"
 msgstr "Nieuwe wijzigingen aanpassen"
 
+#: wp-admin/custom-background.php:407 wp-admin/custom-background.php:408
+msgctxt "Background Scroll"
+msgid "Scroll"
+msgstr "Scroll"
+
 #: wp-admin/custom-background.php:391
 msgctxt "Original Size"
 msgid "Original"
@@ -778,11 +783,6 @@ msgstr "Origineel"
 msgctxt "Background Repeat"
 msgid "Repeat"
 msgstr "Herhaal"
-
-#: wp-admin/custom-background.php:407 wp-admin/custom-background.php:408
-msgctxt "Background Scroll"
-msgid "Scroll"
-msgstr "Scroll"
 
 #: wp-admin/comment.php:52 wp-admin/custom-background.php:98
 #: wp-admin/custom-header.php:124 wp-admin/edit-comments.php:188
@@ -6130,6 +6130,18 @@ msgstr "Superbeheerder"
 msgid "Install"
 msgstr "Installeren"
 
+#: wp-admin/menu.php:227 wp-admin/menu.php:229 wp-admin/user-edit.php:215
+#: wp-admin/users.php:493
+msgctxt "user"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: wp-admin/includes/class-wp-users-list-table.php:323
+#: wp-admin/user-edit.php:375 wp-admin/user-new.php:356
+#: wp-admin/user-new.php:488
+msgid "Role"
+msgstr "Rol"
+
 #: wp-admin/edit-tag-form.php:264
 #: wp-admin/includes/class-wp-links-list-table.php:82
 #: wp-admin/includes/class-wp-links-list-table.php:318
@@ -6147,18 +6159,6 @@ msgstr "Installeren"
 #: wp-admin/themes.php:499 wp-admin/widgets.php:320
 msgid "Delete"
 msgstr "Verwijderen"
-
-#: wp-admin/menu.php:227 wp-admin/menu.php:229 wp-admin/user-edit.php:215
-#: wp-admin/users.php:493
-msgctxt "user"
-msgid "Add New"
-msgstr "Nieuwe toevoegen"
-
-#: wp-admin/includes/class-wp-users-list-table.php:323
-#: wp-admin/user-edit.php:375 wp-admin/user-new.php:356
-#: wp-admin/user-new.php:488
-msgid "Role"
-msgstr "Rol"
 
 #: wp-admin/user-new.php:295 wp-admin/user-new.php:328
 #: wp-admin/user-new.php:386
@@ -6726,13 +6726,13 @@ msgstr "In dit scherm kunt u vijf velden voor metadata bewerken in een bestand d
 msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
 msgstr "Alleen voor afbeeldingen geldt dat u kunt klikken op de Bewerk afbeelding onder de thumbnail om een in-line afbeeldingsbewerker uit te vouwen. Deze kan gebruikt worden om afbeeldingen bij te snijden, te schalen, te roteren of handelingen ongedaan te maken en opnieuw te doen. De boxen aan de rechterkant geven u meer opties om de afbeelding bij te snijden en te schalen en om de thumbnail op een andere manier bij te snijden dan de originele afbeelding. U kunt op de help in deze boxen klikken voor meer informatie."
 
-#: wp-admin/widgets.php:56
-msgid "The Available Widgets section contains all the widgets you can choose from. Once you drag a widget into a sidebar, it will open to allow you to configure its settings. When you are happy with the widget settings, click the Save button and the widget will go live on your site. If you click Delete, it will remove the widget."
-msgstr "De beschikbare widgetsectie bevat alle widgets waaruit u kunt kiezen. Op het moment dat u een widget naar een sidebar sleept, zal deze openen zodat u de instellingen kunt configureren. Als u tevreden bent met de widgetinstellingen, klikt u op Opslaan en zal de widget op uw site worden getoond. Als u op Verwijderen klikt, zal de widget worden verwijderd."
-
 #: wp-admin/edit-form-advanced.php:419 wp-admin/media.php:78
 msgid "Remember to click Update Media to save metadata entered or changed."
 msgstr "Let erop dat u op Media bijwerken klikt om de wijzigingen op te slaan."
+
+#: wp-admin/widgets.php:56
+msgid "The Available Widgets section contains all the widgets you can choose from. Once you drag a widget into a sidebar, it will open to allow you to configure its settings. When you are happy with the widget settings, click the Save button and the widget will go live on your site. If you click Delete, it will remove the widget."
+msgstr "De beschikbare widgetsectie bevat alle widgets waaruit u kunt kiezen. Op het moment dat u een widget naar een sidebar sleept, zal deze openen zodat u de instellingen kunt configureren. Als u tevreden bent met de widgetinstellingen, klikt u op Opslaan en zal de widget op uw site worden getoond. Als u op Verwijderen klikt, zal de widget worden verwijderd."
 
 #: wp-admin/user-new.php:335
 msgid "Email or Username"
@@ -7171,13 +7171,13 @@ msgstr "U kunt de weergave van dit scherm wijzigen met het Scherminstellingen ta
 msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
 msgstr "U kunt categorie&#235;n gebruiken om onderverdelingen te maken in uw site en verwante berichten te groeperen. De standaard berichtcategorie is &#8220;Geen categorie&#8221; totdat u deze verandert in de <a href=\"%s\">instellingen voor schrijven</a>."
 
-#: wp-admin/edit-tags.php:229
-msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
-msgstr "Wat is het verschil tussen de categorie&#235;n en tags? Normaal gesproken zijn tags ad-hoc trefwoorden die belangrijke informatie in uw bericht (namen, onderwerpen, enz.) bevatten. Die kunnen al dan niet voorkomen in andere berichten. Categorie&#235;n zijn vooraf bepaalde secties. Als u uw site vergelijkt met een boek, zijn de categorie&#235;n de inhoudsopgave en de tags termen in de index."
-
 #: wp-admin/edit-tags.php:239
 msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Wanneer u een nieuwe categorie toevoegt op dit scherm dienen de volgende velden te worden gevuld:"
+
+#: wp-admin/edit-tags.php:229
+msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
+msgstr "Wat is het verschil tussen de categorie&#235;n en tags? Normaal gesproken zijn tags ad-hoc trefwoorden die belangrijke informatie in uw bericht (namen, onderwerpen, enz.) bevatten. Die kunnen al dan niet voorkomen in andere berichten. Categorie&#235;n zijn vooraf bepaalde secties. Als u uw site vergelijkt met een boek, zijn de categorie&#235;n de inhoudsopgave en de tags termen in de index."
 
 #: wp-admin/custom-header.php:615
 msgid "Default Images"
@@ -9036,10 +9036,6 @@ msgstr "Privacy"
 msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be put in the trash. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "Wanneer een reactie &#233;&#233;n of meer van deze woorden bevat in de inhoud, naam, URL, e-mail- of IP-adres, wordt het verplaatst naar de prullenbak. E&#233;n woord of IP-adres per regel. Er wordt gezocht in woorden, &#8220;press&#8221; zal worden gevonden in &#8220;WordPress&#8221;."
 
-#: wp-admin/options-discussion.php:160
-msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "Wanneer een reactie &#233;&#233;n of meer van deze woorden bevat in de inhoud, naam, URL, e-mail of IP-adres, wordt het in de <a href=\"edit-comments.php?comment_status=moderated\">moderatiewachtrij</a> opgehouden. E&#233;n woord of IP-adres per regel. Het houdt ook rekening met woorden in woorden. &#8220;press&#8221; wordt ook gevonden binnen &#8220;WordPress&#8221;."
-
 #. translators: %s: web.config
 #: wp-admin/options-permalink.php:343
 msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the %s file automatically, do not forget to revert the permissions after the file has been created."
@@ -9049,6 +9045,10 @@ msgstr "Als u ervoor gekozen hebt om de hoofdmap van uw site tijdelijk schrijfba
 #: wp-admin/options-permalink.php:322
 msgid "If you temporarily make your %s file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
 msgstr "Als u ervoor gekozen hebt om uw %s bestand tijdelijk schrijfbaar te maken voor ons om de rewrite url automatisch te genereren, vergeet dan niet om de rechten weer terug te zetten nadat deze actie is uitgevoerd."
+
+#: wp-admin/options-discussion.php:160
+msgid "When a comment contains any of these words in its content, name, URL, email, or IP address, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP address per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
+msgstr "Wanneer een reactie &#233;&#233;n of meer van deze woorden bevat in de inhoud, naam, URL, e-mail of IP-adres, wordt het in de <a href=\"edit-comments.php?comment_status=moderated\">moderatiewachtrij</a> opgehouden. E&#233;n woord of IP-adres per regel. Het houdt ook rekening met woorden in woorden. &#8220;press&#8221; wordt ook gevonden binnen &#8220;WordPress&#8221;."
 
 #: wp-admin/includes/template.php:875
 msgid "Choose a file from your computer:"

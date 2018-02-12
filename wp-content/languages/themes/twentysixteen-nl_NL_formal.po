@@ -1,0 +1,95 @@
+# Translation of Themes - Twenty Sixteen in Dutch
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-25 09:51:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Sixteen"
+msgstr "Twenty Sixteen"
+
+#: inc/customizer.php:283
+msgid "Red"
+msgstr "Rood"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "Zoeken"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Zoeken &hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "Zoeken naar:"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "Auteur:"
+
+#: single.php:34
+msgid "Next"
+msgstr "Volgende"
+
+#: inc/template-tags.php:95 inc/template-tags.php:103
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/customizer.php:293
+msgid "Yellow"
+msgstr "Geel"
+
+#: inc/customizer.php:273
+msgid "Gray"
+msgstr "Grijs"
+
+#: inc/customizer.php:263
+msgid "Dark"
+msgstr "Donker"
+
+#: inc/customizer.php:253
+msgid "Default"
+msgstr "Standaard"
+
+#: image.php:56 template-parts/content-page.php:23
+#: template-parts/content-single.php:25 template-parts/content.php:33
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: header.php:47
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:156
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: archive.php:50 index.php:47 search.php:38
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: archive.php:49 index.php:46 search.php:37
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:51
+msgid "https://wordpress.org/"
+msgstr "https://nl.wordpress.org/"
