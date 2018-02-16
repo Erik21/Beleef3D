@@ -1,0 +1,8 @@
+2018-02-16T09:22:35+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-checkout-handler.php:704
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/abstracts/abstract-wc-gateway-ppec.php(63): WC_Gateway_PPEC_Checkout_Handler->is_started_from_checkout_page()
+#1 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/includes/class-wc-gateway-ppec-with-paypal.php(12): WC_Gateway_PPEC->__construct()
+#2 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(105): WC_Gateway_PPEC_With_PayPal->__construct()
+#3 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#4 /Applications/MAMP/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-pay
+
